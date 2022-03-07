@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .imge{
+     size: 15px;
+ }
+body{
+    background-image: url('fondo.png') ;
+    background-size: cover;
+}
+.pedido{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 20px;
+    color: white;
+    font-family: 'calibri';
+    
+}
+ .form-register{
+     width: 400px;
+     background-color: #24303c;
+     padding: 30px;
+     margin: auto;
+     margin-top: 100px;
+     border-radius: 4px;
+     font-family: 'calibri';
+     color: white;
+     box-shadow: 7px 13px 37px #000;
+ }
+ .form-register h2{
+     font-size: 22px;
+     margin-bottom: 20px; 
+ }
+ .form-register .boton{
+     width: 100%;
+     background-color: #1f53c5;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+ }
+ .form-group{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000; 
+    position: absolute;
+    top: 125px;
+    left: 10px;
+ }
+ .controls{
+     width: 100%;
+     background: #24303c;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid #1f53c5;
+     font-size: 18px;
+     color: white;
+ }
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    flex: 1;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    position: relative;
+
+}
+ ul li a::after{
+     content: '';
+     width: 100%;
+     height: 10px;
+     background: #f14a60;
+     position: absolute;
+     left: 50%;
+     transform:translateX(-50%);
+     top: -55px;
+     transition: 0.5s;
+ }
+ ul li a:hover::after{
+    width: 100%;
+
+ }
+ .container{
+     position: absolute;
+     text-align: center;
+     background-color: #ddda;
+     align-items: center;
+
+ }
